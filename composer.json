@@ -1,14 +1,15 @@
 {
-  "name": "sentiger/weather",
+  "name": "sentiger/AliDy",
   "authors": [
     {
-      "name": "Sentiger",
+      "name": "Sentiger Shi",
       "email": "shi_wenhu@qq.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Sentiger\\AliDy\\": "src/"
+      "AliDy\\": "src/"
     }
-  }
+  },
+  "require": {}
 }
