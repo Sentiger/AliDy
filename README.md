@@ -17,6 +17,7 @@ $smsClient = new \Sentiger\AliDy\SMSDy($config);
 
 $res = $smsClient->sendSMS('17602191131', [
     'TemplateParam' => [
+        // 这个里面是短信模板中的变量，根据实际情况设置变量名称
         'code' => 'xx'
     ]
 ]);
